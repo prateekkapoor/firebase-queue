@@ -6,7 +6,7 @@ const { Storage } = require('@google-cloud/storage');
 const ftpServer = new FtpSvr('ftp://' + hostname + ':' + port,
     { anonymous: true, greeting: ["Hello", "Welcome"] });
 
-const PROJECT_ID = "seismic-box-219016";
+const PROJECT_ID = "seismic-box-2116";
 const bucketName = 'ftp_demo';
 
 // Creates a client
