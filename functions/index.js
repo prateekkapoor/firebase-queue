@@ -1,5 +1,5 @@
 'use strict';
-const PROJECT_ID = "seismic-box-219016";
+const PROJECT_ID = "seismic-box-2116";
 const { Storage } = require('@google-cloud/storage');
 // Creates a client
 const storage = new Storage({
@@ -11,7 +11,7 @@ const firebase = require('firebase');
 firebase.initializeApp({
     "appName": "test app",
     "serviceAccount": '../serviceAccountKey.json',
-    "databaseURL": 'https://seismic-box-219016.firebaseio.com/',
+    "databaseURL": 'https://seismic-box-2116.firebaseio.com/',
 });
 const functions = require('firebase-functions');
 exports.createOrders = functions.storage.bucket('ftp_demo').object().onFinalize(event => {
