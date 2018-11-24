@@ -3,7 +3,7 @@ const firebase = require('firebase');
 firebase.initializeApp({
     "appName": "test app",
     "serviceAccount": '../serviceAccountKey.json',
-    "databaseURL": 'https://seismic-box-219016.firebaseio.com/',
+    "databaseURL": 'https://seismic-box-2116.firebaseio.com/',
 });
 
 var queueRef = firebase.database().ref('firebase-queue/order-queue');
