@@ -10,6 +10,8 @@ Simple project to get started with FTP, google cloud bucket, firebase and fireba
 ## Install dependencies both in root and /functions
 npm install
 
+### Google service account
+Create service_account.json file at root location
 ## Deploy functions
 npm run deploy
 
@@ -26,6 +28,9 @@ node index.js
 ### Starting order queue listener
 
 node OrdersQueueListener.js
+
+### Google service account
+Create service_account.json file at root location
 
 ### Create a google bucket ftp_demo
 
